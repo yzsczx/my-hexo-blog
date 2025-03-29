@@ -1,4 +1,3 @@
----
 title: Hexo博客操作指南
 date: 2025-03-29 18:42:35
 tags:
@@ -45,17 +44,17 @@ Q3: 如何删除文章？
 ① 提交更改到 Git
 bash
 复制
-# 进入博客根目录
+进入博客根目录
 cd my-blog
 
-# 查看被删除的文件（确认文件已从工作区移除）
+查看被删除的文件（确认文件已从工作区移除）
 git status
-# 应显示：deleted: source/_posts/2024-05-20-old-post.md
+应显示：deleted: source/_posts/2024-05-20-old-post.md
 
-# 添加删除操作到暂存区
+添加删除操作到暂存区
 git add -u  # 或 git add source/_posts/2024-05-20-old-post.md
 
-# 提交更改
+提交更改
 git commit -m "删除旧文章《old-post》"
 ② 推送到 GitHub
 bash

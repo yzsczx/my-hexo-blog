@@ -104,3 +104,10 @@ theme: aurora
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Hexo Admin
+admin:
+  username: admin  # 登录用户名
+  password: 111111  # 登录密码
+  secret: "自定义加密密钥"  # 用于Session加密（建议修改）
+  deployCommand: "hexo clean && hexo g -d"  # 发布执行的命令
