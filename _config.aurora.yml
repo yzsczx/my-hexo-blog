@@ -9,8 +9,8 @@
 #！ @docs https://aurora.tridiamond.tech/guide/configuration.html
 #! ---------------------------------------------------------------
 site:
-  subtitle: 清风徐来
-  author: 酷鱼
+  subtitle: 酷鱼的博客
+  author: 清风徐来
   nick: Auroral UI
   description:
   link: '/'
